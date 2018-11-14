@@ -16,15 +16,15 @@ const boxes = document.querySelectorAll('.box')
 
 for (var i = 0; i < boxes.length; i++) {
     // option1 = changes colour on hover
-    boxes[i].addEventListener('pointerover', function(e) {
-        e.target.style.backgroundColor = 'rgb(152, 247, 239)';
-    })
-    boxes[i].addEventListener('pointerover', function(e) {
-        e.target.style.border = '1px solid rgb(138, 226, 219)';
-    })
+    // boxes[i].addEventListener('pointerover', function(e) {
+    //     e.target.style.backgroundColor = 'rgb(152, 247, 239)';
+    // })
+    // boxes[i].addEventListener('pointerover', function(e) {
+    //     e.target.style.border = '1px solid rgb(138, 226, 219)';
+    // })
 
     // option 2 = changes colour onclick
-    // boxes[i].addEventListener('click', function(e) {
-    //     e.target.style.backgroundColor = 'purple';
-    // })
+    boxes[i].addEventListener('click', function(e) {
+        e.target.style.backgroundColor = 'purple';
+    })
 }
